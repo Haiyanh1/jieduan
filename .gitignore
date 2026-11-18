@@ -1,0 +1,28 @@
+# 构建产物
+unpackage/
+node_modules/
+.DS_Store
+*.log
+*.apk
+*.ipa
+*.aab
+
+# IDE
+.idea/
+*.iml
+.hbuilderx/
+
+# 本地环境 / 密钥
+.env
+.env.*
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+**/cloudcertificate/
+
+# 原生插件编译产物（源码保留）
+nativeplugins/**/*.aar
+nativeplugins/**/build/
+nativeplugins/**/.gradle/

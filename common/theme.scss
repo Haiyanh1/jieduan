@@ -1,0 +1,36 @@
+/* 戒断 · 冷调烟纸 / 宣纸灰白 */
+$ink: #2C3136;
+$ink-soft: #5B636B;
+$mute: #8B949E;
+$line: rgba(44, 49, 54, 0.1);
+$paper: #F2F1EE;
+$paper-deep: #E5E4DF;
+$seal: #4A5D6A;
+$ok: #4A5D6A;
+$coral: #9A5B4A;
+
+@mixin paper-surface {
+	background-color: $paper;
+	background-image:
+		repeating-linear-gradient(
+			92deg,
+			rgba(70, 78, 88, 0.03) 0,
+			rgba(70, 78, 88, 0.03) 1px,
+			transparent 1px,
+			transparent 8px
+		),
+		repeating-linear-gradient(
+			0deg,
+			rgba(90, 98, 108, 0.025) 0,
+			rgba(90, 98, 108, 0.025) 1px,
+			transparent 1px,
+			transparent 10px
+		),
+		radial-gradient(ellipse at 18% 8%, rgba(255, 255, 255, 0.7), transparent 48%),
+		radial-gradient(ellipse at 85% 92%, rgba(180, 186, 194, 0.18), transparent 52%),
+		linear-gradient(180deg, #F6F5F2 0%, #F0EFEC 50%, #E9E8E3 100%);
+}
+
+@mixin body-font {
+	font-family: 'PingFang SC', 'Hiragino Sans GB', 'Songti SC', 'Microsoft YaHei', sans-serif;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "JieduanBoot",
+  "id": "JieduanBoot",
+  "version": "1.0.0",
+  "description": "开机后拉起主 Activity，便于 JS 侧重挂本地闹钟",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [],
+      "integrateType": "aar",
+      "minSdkVersion": "21",
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.WAKE_LOCK"
+      ],
+      "abis": ["armeabi-v7a", "arm64-v8a"]
+    }
+  }
+}

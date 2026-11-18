@@ -1,0 +1,67 @@
+{
+    "name" : "戒断",
+    "appid" : "__UNI__031AB96",
+    "description" : "纯本地戒烟打卡，支持定时提醒",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "safearea" : {
+            "background" : "#F2F1EE",
+            "backgroundDark" : "#F2F1EE",
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        "modules" : {
+            "Push" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\"/>",
+                    "<uses-permission android:name=\"android.permission.SCHEDULE_EXACT_ALARM\"/>"
+                ],
+                "minSdkVersion" : 21,
+                "targetSdkVersion" : 33,
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            "ios" : {
+                "dSYMs" : false
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "static/app-icons/android/hdpi.png",
+                    "xhdpi" : "static/app-icons/android/xhdpi.png",
+                    "xxhdpi" : "static/app-icons/android/xxhdpi.png",
+                    "xxxhdpi" : "static/app-icons/android/xxxhdpi.png"
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "androidNavigationBarColor" : "#F2F1EE",
+                "android" : {
+                    "hdpi" : "static/splash/hdpi.png",
+                    "xhdpi" : "static/splash/xhdpi.png",
+                    "xxhdpi" : "static/splash/xxhdpi.png"
+                }
+            },
+            "sdkConfigs" : {
+                "push" : {}
+            }
+        }
+    },
+    "vueVersion" : "3"
+}
