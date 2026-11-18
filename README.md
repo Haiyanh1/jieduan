@@ -1,6 +1,14 @@
-# 戒断 · ROLL BACK
+<p align="center">
+  <img src="docs/logo.png" alt="戒断" width="120" />
+</p>
 
-纯本地戒烟打卡 App（uni-app / Vue3）。不联网、无账号，数据存在本机。
+<h1 align="center">戒断 · ROLL BACK</h1>
+
+<p align="center">
+  <strong>中文</strong> · <a href="./README.en.md">English</a>
+</p>
+
+<p align="center">纯本地戒烟打卡 App（uni-app / Vue3）。不联网、无账号，数据存在本机。</p>
 
 ## 界面预览
 
